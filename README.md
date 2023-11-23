@@ -1,6 +1,8 @@
 # Audiophile Ecommerce Website
 
-Projeto de site E-commerce produzido a fim de concluir o desafio do site FrontEnd Mentor: https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx , oque foi proposto pelo desafio já foi concluido porém eu ainda não finalizei o projeto quero ainda consertar alguns bugs e fazer algumas alterações e adições de novas funcionalidades. 
+Projeto de site E-commerce produzido a fim de concluir o desafio do site FrontEnd Mentor: https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx.
+
+Oque foi proposto pelo desafio já foi concluido porém eu ainda não finalizei o projeto quero ainda consertar alguns bugs e fazer algumas alterações e adições de novas funcionalidades. 
 
 segue abaixo o resumo de algumas partes da aplicação:
 
