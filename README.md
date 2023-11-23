@@ -29,10 +29,10 @@ segue abaixo o resumo de algumas partes da aplicação:
 # Tecnologias
 
 - _Vite_
-- _Reagir_
-- _Datilografado (TSX)_
+- _React_
+- _Typescript (TSX)_
 - _TailwindCss_
 - _Formik_
-- _Ganchos React (useState)_
+- _React Hooks (useState)_
 - _framer-motion_
-- _react-roteador_
+- _react-router_
