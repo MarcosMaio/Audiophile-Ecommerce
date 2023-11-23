@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+
+  /* Barra de rolagem Firefox:*/
+  scrollbar-width: thin;
+  scrollbar-color: var(--white) var(--primary-dark);
+  scrollbar-track-color: unset;
+  scrollbar-thumb-radius: 10px;
+  scrollbar-thumb-color: var(--white);
+  scrollbar-thumb-color: var(--white);
+
+  /* Barra de rolagem Internet Explorer */
+  -ms-overflow-style: none;
+  -ms-scrollbar-track-color: unset;
+  -ms-scrollbar-thumb-color: rgba(220, 215, 215, 0.952);
+  -ms-scrollbar-thumb-color: var(--white);
+}
+
+/* Barra de rolagem Chrome*/
+
+::-webkit-scrollbar {
+  width: 3px;
+  background-color: hsl(0, 0%, 2%);
+}
+
+::-webkit-scrollbar-track {
+  background: unset;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: hsl(22, 65%, 57%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(22, 75%, 50%);
+}
+
+.bg {
+  background-image: url("/src/images/home/mobile/bg-750.png");
+  width: 100%;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tablet {
+  display: none;
+}
+
+.mobile {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .tablet {
+    display: flex;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg {
+    background-image: url("/src/images/home/tablet/bg-1024.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 1110px) {
+  .bg {
+    background-image: url("/src/images/home/desktop/bg-background.png");
+    width: 100%;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .bg {
+    background-size: cover;
+    height: 100vh;
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Manrope", sans-serif;
+  }
+}
